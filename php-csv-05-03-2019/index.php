@@ -4,7 +4,11 @@ require 'vendor/autoload.php';
 
 use App\CSVReader;
 
-/* https://github.com/johnnyfreeman/coseva */
+/* 
+    https://github.com/johnnyfreeman/coseva 
+    composer install
+    composer dump-autoload -o
+*/
 
 $csv = (new CSVReader())->readFile();
 
