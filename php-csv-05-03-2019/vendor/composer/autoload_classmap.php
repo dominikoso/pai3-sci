@@ -6,7 +6,4 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'App\\CSVReader' => $baseDir . '/app/CSVReader.php',
-    'App\\Config' => $baseDir . '/app/Config.php',
-    'Coseva\\CSV' => $vendorDir . '/johnnyfreeman/coseva/src/Coseva/CSV.php',
 );
