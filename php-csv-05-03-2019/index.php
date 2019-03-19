@@ -3,12 +3,17 @@
 require 'vendor/autoload.php';
 
 use App\CSVReader;
+use App\CSVWriter;
+use App\ICSReader;
+use App\JSONReader;
 
 /* 
     https://github.com/johnnyfreeman/coseva 
     composer install
     composer dump-autoload -o
 */
+
+echo '<br>=========================================== CSV =====================================================<br>';
 
 $csv = (new CSVReader())->readFile();
 
@@ -18,8 +23,26 @@ if($csv != null){
 	    return $columns;
     });
 
-    echo $csv->toTable();
+    echo $csv;
 
 }else{
-    echo 'Something goes worng';    
+    echo 'Something goes worng with CSV';    
 }
+
+
+
+echo '<br>=========================================== JSON =====================================================<br>';
+
+$json = (new JSONReader())->readFile();
+
+if($json != null){
+
+    echo $json;
+    (new CSVWriter())->writeFile('csv/json2csv.csv', $json);
+
+}else{
+    echo 'Something goes worng with JSON';    
+}
+
+
+
