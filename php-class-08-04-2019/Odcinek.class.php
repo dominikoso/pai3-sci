@@ -26,6 +26,18 @@
 
         }
 
+        function isLongerThan($odcinek){
+            if ($this->liczDlugosc() > $odcinek->liczDlugosc()){
+                return true;
+            }else{
+                return false;
+            }
+        }
+
+        function generateDesc(){
+            return "A: (".$this->x1.",".$this->y1.") B: (".$this->x2.",".$this->y2.") |AB| = ".$this->liczDlugosc();
+        }
+
         function drawLine($handle)
         {
             $line_color = ImageColorAllocate ($handle, random_int(0,255), random_int(0, 255), random_int(0,255));

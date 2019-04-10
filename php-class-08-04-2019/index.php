@@ -1,15 +1,32 @@
-<?php header ("Content-type: image/png");
-    include ('Odcinek.class.php');
-    $p1 = new Odcinek();
-    $p2 = new Odcinek();
-    $p3 = new Odcinek();
-    $handle = ImageCreate (200, 200) or die ("Cannot Create image");
-    $bg_color = ImageColorAllocate ($handle, 0, 0, 0);
-    $txt_color = ImageColorAllocate ($handle, 255, 255, 255);
-    $p1->drawLine($handle);
-    $p2->drawLine($handle);
-    $p3->drawLine($handle);
-    //ImageString ($handle, 100, 0, 130, "|AB|: ".$p1->liczDlugosc(), $txt_color);
-    //ImageString ($handle, 100, 0, 150, "A: ".$p1->getX1()." ".$p1->getY1(), $txt_color);
-    //ImageString ($handle, 100, 0, 170, "B: ".$p1->getX2()." ".$p1->getY2(), $txt_color);
-    ImagePng ($handle);
+<?php
+
+require_once("Image.class.php");
+require_once("classes.php");
+
+$points = array($p1 = new Odcinek(), $p2 = new Odcinek(), $p3 = new Odcinek());
+
+$imgFactory = new Image;
+$imgFactory->drawHandle($points);
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body style="text-align: center">
+    <img src="tmp/img.png"><br>
+    <?php
+        if ($points == null) {
+            echo "Points randomized, cannot specify data";
+        } else {
+            foreach ($points as $point){
+                echo $point->generateDesc()."<br>";
+            }
+        }
+    ?>
+</body>
+</html>
