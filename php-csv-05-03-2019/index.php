@@ -1,48 +1,34 @@
+<style>
+
+.form-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px dotted black;
+  z-index: 9;
+}
+
+
+</style>
+<script>
+    
+  
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+  
+}
+
+</script>
+<button class="btn btn-primary" onclick="openForm()">Dodaj nowe</button>
 <?php
 
-require 'vendor/autoload.php';
-
-use App\CSVReader;
-use App\CSVWriter;
-use App\ICSReader;
-use App\JSONReader;
-
-/* 
-    https://github.com/johnnyfreeman/coseva 
-    composer install
-    composer dump-autoload -o
-*/
-
-echo '<br>=========================================== CSV =====================================================<br>';
-
-$csv = (new CSVReader())->readFile();
-
-if($csv != null){
-    $csv->filter(function($columns) {
-	    unset($columns[0]);
-	    return $columns;
-    });
-
-    echo $csv;
-
-}else{
-    echo 'Something goes worng with CSV';    
-}
-
-
-
-echo '<br>=========================================== JSON =====================================================<br>';
-
-$json = (new JSONReader())->readFile();
-
-if($json != null){
-
-    echo $json;
-    (new CSVWriter())->writeFile('csv/json2csv.csv', $json);
-
-}else{
-    echo 'Something goes worng with JSON';    
-}
-
+require_once('read.php');
+require_once('table.html');
 
 
