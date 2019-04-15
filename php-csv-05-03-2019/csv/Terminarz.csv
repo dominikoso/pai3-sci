@@ -1,0 +1,43 @@
+Klasa,Opis,Data publikacji,Termin oddania,Dni do oddania,Trudność/Waga
+3a,"Lekcja 03 - Obsługa formularzy w PHP - tablice $_GET, $_POST. Zmienne sesyjne i tablica $_SESSION",2018-10-12,2018-10-19,-124,6
+3b,"Lekcja 03 - Obsługa formularzy w PHP - tablice $_GET, $_POST. Zmienne sesyjne i tablica $_SESSION",2018-10-11,2018-10-18,-125,6
+3c,"Lekcja 03 - Obsługa formularzy w PHP - tablice $_GET, $_POST. Zmienne sesyjne i tablica $_SESSION",2018-10-10,2018-10-17,-126,6
+3a,Lekcja 04 - Warunkowe łączenie kodu w PHP na podstawie parametrów z tablicy GET,2018-10-22,2018-10-29,-114,3
+3b,Lekcja 04 - Warunkowe łączenie kodu w PHP na podstawie parametrów z tablicy GET,2018-10-18,2018-10-25,-118,3
+3c,Lekcja 04 - Warunkowe łączenie kodu w PHP na podstawie parametrów z tablicy GET,2018-10-24,2018-10-31,-112,3
+3a,Lekcja 05 - Przetwarzanie nagłówków http - nagłówek Accept,,,-43516,3
+3b,Lekcja 05 - Przetwarzanie nagłówków http - nagłówek Accept,2018-11-08,2018-11-08,-104,3
+3c,Lekcja 05 - Przetwarzanie nagłówków http - nagłówek Accept,2018-11-07,2018-11-14,-98,3
+3a,"Lekcja 06 - Zaawansowane przetwarzanie nagłówków http, detekcja języka - nagłówek Accept-Language",2018-11-16,2018-11-19,-93,9
+3b,"Lekcja 06 - Zaawansowane przetwarzanie nagłówków http, detekcja języka - nagłówek Accept-Language",2018-11-15,2018-11-30,-82,9
+3c,"Lekcja 06 - Zaawansowane przetwarzanie nagłówków http, detekcja języka - nagłówek Accept-Language",2018-11-14,2018-11-28,-84,9
+3a,Lekcja 07 - Przechowywanie stanu aplikacji - sesja i ciasteczka w PHP,2018-11-30,2018-11-30,-82,6
+3b,Lekcja 07 - Przechowywanie stanu aplikacji - sesja i ciasteczka w PHP,2018-11-29,2018-11-30,-82,
+3c,Lekcja 07 - Przechowywanie stanu aplikacji - sesja i ciasteczka w PHP,2018-11-28,2018-11-28,-84,
+3a,PAI_LAB01 - Etap 1,,2018-12-14,-68,1
+3b,PAI_LAB01 - Etap 1,2018-11-29,2018-12-06,-76,
+3c,PAI_LAB01 - Etap 1,2018-11-28,2018-12-12,-70,
+3a,PAI_LAB02 - Etap 2,2018-12-07,2018-12-14,-68,1
+3b,PAI_LAB02 - Etap 2,2018-12-06,2018-12-13,-69,
+3c,PAI_LAB02 - Etap 2,2018-12-05,2018-12-12,-70,
+3a,Lekcja 09c - Operacje na plikach w PHP - odczyt z pliku CSV,2019-01-07,2019-01-14,-37,3
+3b,Lekcja 09c - Operacje na plikach w PHP - odczyt z pliku CSV,2019-01-09,2019-01-16,-35,
+3c,Lekcja 09c - Operacje na plikach w PHP - odczyt z pliku CSV,2019-01-09,2019-01-16,-35,
+3a,Lekcja 9a,2019-01-07,2019-01-07,-44,1
+3b,Lekcja 9a,2019-01-09,2019-01-09,-42,
+3c,Lekcja 9a,2019-01-09,2019-01-09,-42,
+3a,PAI_LAB03 - Etap 3,2019-01-11,2019-01-25,-26,3
+3b,PAI_LAB03 - Etap 3,2019-01-10,2019-01-25,-26,
+3c,PAI_LAB03 - Etap 3,2019-01-09,2019-01-25,-26,
+3a,PAI_LAB04 - Etap 4,2019-01-25,2019-03-01,9,3
+3b,PAI_LAB04 - Etap 4,2019-01-24,2019-02-28,8,
+3c,PAI_LAB04 - Etap 4,2019-01-23,2019-02-27,7,
+3a,Lekcja 11 - SQLite Podstawy plikowej bazy danych w PHP,2019-01-25,2019-02-11,-9,3
+3b,Lekcja 11 - SQLite Podstawy plikowej bazy danych w PHP,2019-01-24,2019-02-13,-7,
+3c,Lekcja 11 - SQLite Podstawy plikowej bazy danych w PHP,2019-01-23,2019-02-13,-7,
+3a,Lekcja 12 - Obsługa bazy danych SQLite za pomocą PDO. Obsługa wyjątków,2019-02-18,2019-02-25,5,6
+3b,Lekcja 12 - Obsługa bazy danych SQLite za pomocą PDO. Obsługa wyjątków,,,-43516,
+3c,Lekcja 12 - Obsługa bazy danych SQLite za pomocą PDO. Obsługa wyjątków,2019-02-20,2019-02-27,7,
+3c,Adwent,1994-09-09,1994-10-09,1
+3c,Rekolekcje,1939-09-01,1945-04-08,4
+3b,Zadanie,2442-02-13,9999-04-12,,2

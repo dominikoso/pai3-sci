@@ -25,10 +25,15 @@ function closeForm() {
 }
 
 </script>
-<button class="btn btn-primary" onclick="openForm()">Dodaj nowe</button>
+<button class="btn btn-primary" onclick="openForm()">Add New</button>
 <?php
+    require 'vendor/autoload.php';
 
-require_once('read.php');
-require_once('table.html');
+    use App\CSVReader;
+
+    $csv = (new CSVReader())->readFile();
+    echo $csv->toTable();
+
+    require_once('table.html');
 
 
