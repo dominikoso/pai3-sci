@@ -3,7 +3,7 @@
 require_once("Image.class.php");
 require_once("classes.php");
 
-$points = array($p1 = new Odcinek(), $p2 = new Odcinek(), $p3 = new Odcinek());
+$points = array($p1 = new Odcinek(), $p2 = new Odcinek(), $p3 = new Odcinek(), $p4 = new Odcinek());
 
 $imgFactory = new Image;
 $imgFactory->drawHandle($points);
