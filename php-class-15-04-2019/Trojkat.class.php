@@ -15,7 +15,7 @@
 
         public function liczPole(){
            
-            return ($this-a * $this-h);            
+            return ($this->a * $this->h);            
 
         }
 
